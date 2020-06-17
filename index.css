@@ -1,0 +1,116 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #FFFFFC;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.content {
+  width: 100%;
+}
+
+.content--header{
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content--header__menu{
+  overflow: hidden;
+  margin: 30px 10px 10px 10px;
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+}
+.content--header__menu ul{
+  padding-top: 100px;
+  margin: 20px 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.content--header__menu ul li a{
+  font-size: 20px;
+  color: black;
+  display: flex;
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+.content--header li a:hover, .active:hover{
+  text-decoration: underline;
+}
+.content--info{
+  display: inline-flex;
+}
+.content--info__info{
+  padding-top: 100px;
+  margin-right: 20px;
+}
+.content--info__info h3{
+  font-size:  30px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.content--info__info h4{
+  padding-top: 30px;
+  text-align: center;
+}
+.content--info__img{
+  margin: 10px 10px 20px 10px;
+  padding-top: 80px;
+}
+#h3{
+  font-size: 20px;
+}
+#vida--img{
+  margin-right: 100px;
+}
+#relevancia--img{
+  padding-top:40px;
+}
+#padding--h41, #padding--h42{
+  padding-left: 30px;
+}
+.frases{
+  padding-bottom: 30px;
+}
+#frases{
+  margin-top: 30px;
+}
+.add--margin-top{
+  margin-top: 60px;
+}
+@media only screen and (max-width: 700px){
+  .content--header h1{
+    font-size: 50px;
+  }
+  .content--info{
+    display: block;
+  }
+  .content--info__info{
+    padding: 20px;
+  }
+  .content--info__info h3{
+    font-size: 20px;
+  }
+  .content--info__img img, #relevancia--img{
+    display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  footer{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
