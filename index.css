@@ -48,7 +48,7 @@ body {
   text-decoration: underline;
 }
 .active {
-  text-decoration: underline;
+  background-color: #dddddd
 }
 .content--info{
   display: inline-flex;
